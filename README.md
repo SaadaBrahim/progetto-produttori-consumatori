@@ -2,7 +2,7 @@
 ## farm di buffer
 
 Analisi Tecnica: 
-Prevenzione del Deadlock nel Modello Produttore-ConsumatoreIl deadlock (o stallo) 
+Prevenzione del Deadlock nel Modello Produttore-ConsumatoreIl deadlock (o stallo)
 è una condizione in cui un gruppo di thread è bloccato perché ogni thread attende una risorsa posseduta da un altro thread del gruppo. 
 
 In un sistema Produttore-Consumatore mal progettato, il rischio è che il Produttore aspetti che il buffer si svuoti e il Consumatore aspetti che il buffer si riempia, rimanendo entrambi fermi all'infinito.
