@@ -16,7 +16,7 @@ public class Consumatore extends Thread {
                 Thread.sleep(1500); // pausa più lunga per simulare il consumo
             }
         } catch (InterruptedException e) {
-            System.out.println("Consumatore interrotto.");
+            System.out.println("consumatore interrotto.");
         }
     }
 }

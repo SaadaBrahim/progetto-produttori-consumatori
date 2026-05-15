@@ -8,7 +8,7 @@ public class Main {
         Produttore p = new Produttore(bufferCondiviso);
         Consumatore c = new Consumatore(bufferCondiviso);
 
-        System.out.println("--- Avvio del sistema Produttore/Consumatore ---");
+        System.out.println("avvio del sistema produttore/consumatore");
         p.start();
         c.start();
     }

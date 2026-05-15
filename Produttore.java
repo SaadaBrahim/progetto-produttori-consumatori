@@ -17,7 +17,7 @@ public class Produttore extends Thread {
                 Thread.sleep(500); // pausa breve tra le produzioni
             }
         } catch (InterruptedException e) {
-            System.out.println("Produttore interrotto.");
+            System.out.println("produttore interrotto.");
         }
     }
 }
